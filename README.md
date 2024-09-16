@@ -2,7 +2,7 @@ Class: `Requisitionsystem`
 Attributes: 
 - `date`, `requisition_id`, `staff_id`, `staff_name`, `status`, `requisition_item_total`, `approval_reference_number`.
 - The `requisition_id` starts at 10001.
-  - 
+
 Methods:
 - `staff_info`: Collects and displays staff information (date, staff ID, staff name) and returns a dictionary containing this data.
 - `requisitions_details`: Asks for the price of coffee and pen, but this part is not fully visible yet.
