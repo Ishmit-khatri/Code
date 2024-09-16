@@ -42,5 +42,5 @@ Methods:
 How to Run
 
 1. Install Python (if not installed).
-2. Run the `requisitionsystem.py` file in a Python environment.
+2. Run the `requisitionsystem.py` file in Visual Studio Code.
 3. Follow the prompts to enter staff information and requisition details.
