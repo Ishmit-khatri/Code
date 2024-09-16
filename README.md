@@ -1,4 +1,3 @@
-
  Class: `Requisitionsystem`
 Attributes: 
 - `date`, `requisition_id`, `staff_id`, `staff_name`, `status`, `requisition_item_total`, `approval_reference_number`.
