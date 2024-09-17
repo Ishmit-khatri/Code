@@ -42,7 +42,7 @@ Methods:
 - Returns a dictionary containing the staff details.
      
 2. `requisitions_details()`: 
-- (Incomplete in this preview) Prompts the user for item prices (e.g., coffee, pen).
+-  Prompts the user for item prices (e.g., coffee, pen).
 
 How to Run
 -
