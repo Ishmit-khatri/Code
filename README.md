@@ -74,6 +74,8 @@ Approval Reference Number: 1230001
 3. Follow the prompts to enter staff information and requisition details.
 
 
+
+
 ### Conclusion:
 This structure ensures all aspects of the system are well-documented and provides a better understanding to users.
 
