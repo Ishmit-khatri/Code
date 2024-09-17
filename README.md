@@ -1,13 +1,13 @@
 
 
 # Requisition System
--
+
 ## Project Overview
--
+
 This project implements a simple requisition system for managing office supplies. It collects staff information, tracks requisition items, and calculates the total cost of items requested. The system is designed using object-oriented programming principles in Python.
 
 ## Features
--
+
 - Collects staff information (date, staff ID, and name).
 - Tracks requisition items (e.g., coffee, paper, pen) and calculates their total cost.
 - Assigns a unique requisition ID for each request.
@@ -16,13 +16,13 @@ This project implements a simple requisition system for managing office supplies
 - Displays a summary of all requisitions, including approved, pending, and rejected.
 
 ## Code Structure
--
+
 
 ### Class: `Requisitionsystem`
--
+
 
 #### Attributes:
--
+
 - `date`: The date of the requisition.
 - `requisition_id`: A unique ID starting from 10001.
 - `staff_id`, `staff_name`: Information about the staff making the requisition.
@@ -31,7 +31,7 @@ This project implements a simple requisition system for managing office supplies
 - `approval_reference_number`: A reference number for approval, created by combining `staff_id` and part of the `requisition_id`.
 
 #### Methods:
--
+
 1. `staff_info()`: 
    - Prompts the user to enter staff information (date, ID, and name) and displays it.
    - Returns a dictionary containing the staff details.
@@ -50,18 +50,16 @@ This project implements a simple requisition system for managing office supplies
    - Displays all the requisition information, including total cost, status, and approval reference number.
 
 6. **Requisition Statistics:**
-7. -
    - The system also keeps track of requisition statistics like the number of approved, pending, and rejected requisitions.
 
 ## How to Run
--
+
 1. Ensure Python is installed on your system.
 2. Run the `requisitionsystem.py` file using Visual Studio Code or a terminal.
 3. Follow the prompts to input staff information and requisition details.
 4. After running the script, you will see statistics for all the submitted requisitions.
 
 ## Example Output
--
 ```bash
 Enter the date: 2024-09-17
 Enter the staff ID: 123
@@ -73,4 +71,9 @@ The total value of requisition items is $ 18
 Approval Reference Number: 1230001
 ...
 
-3. Follow the prompts to enter staff information and requisition details. 
+3. Follow the prompts to enter staff information and requisition details.
+
+
+### Conclusion:
+This structure ensures all aspects of the system are well-documented and provides a better understanding to users.
+
