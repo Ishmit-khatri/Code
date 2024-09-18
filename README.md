@@ -24,9 +24,9 @@ This project implements a simple requisition system for managing office supplies
 #### Attributes:
 
 - `date`: The date of the requisition.
-- `requisition_id`: A unique ID starting from 10001.
-- `staff_id`, `staff_name`: Information about the staff making the requisition.
-- `status`: The current status of the requisition (Approved or Pending).
+- `requisition_id`: A unique id starting from 10001.
+- `staff_id`, `staff_name`: Information of staff making the requisition.
+- `status`: The current real status of the requisition (Approved or Pending).
 - `requisition_item_total`: Total cost of items requested.
 - `approval_reference_number`: A reference number for approval, created by combining `staff_id` and part of the `requisition_id`.
 
@@ -50,7 +50,7 @@ This project implements a simple requisition system for managing office supplies
    - Displays all the requisition information, including total cost, status, and approval reference number.
 
 6. **Requisition Statistics:**
-   - The system also keeps track of requisition statistics like the number of approved, pending, and rejected requisitions.
+   - The system also displays requisition statistics whereby it is possible to view the number of approved, pending and rejected requisitions.
 
 ## How to Run
 
