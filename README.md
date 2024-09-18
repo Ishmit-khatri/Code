@@ -59,6 +59,11 @@ This project implements a simple requisition system for managing office supplies
 3. Follow the prompts to input staff information and requisition details.
 4. After running the script, you will see statistics for all the submitted requisitions.
 
+
+## Conclusion:
+
+This structure ensures all aspects of the system are well-documented and provides a better understanding to users.
+
 ## Example Output
 ```bash
 Enter the date: 2024-09-17
@@ -71,11 +76,9 @@ The total value of requisition items is $ 18
 Approval Reference Number: 1230001
 ...
 
-3. Follow the prompts to enter staff information and requisition details.
+Follow the prompts to enter staff information and requisition details.
 
 
 
 
-## Conclusion:
-This structure ensures all aspects of the system are well-documented and provides a better understanding to users.
 
